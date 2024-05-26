@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/** box2 **/
+.add-1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.search-select {
+    border-top-left-radius : 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+ 
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    background-color: #febd68;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lang {
+    display: flex;
+    padding: 10px;
+}
+
+.lang-s {
+    font-weight: bold;
+    background-color: #0F1111;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+.flag {
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+.add-3 {
+    font-size: 0.85rem;
+}
+
+.add-4 {
+    font-size: 1rem;
+}
+
+.nav-cart i {
+    font-size: 25px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: last baseline;
+}
+
+.panel {
+    height: 40px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.select-fresh {
+    background-color: rgb(35, 47, 62);
+    color: white;
+    border: none;
+    font-size: 0.90rem;
+}
+
+.panel-ops {
+    display: flex;
+    width: 66%;
+    font-size: 0.90rem;
+}
+
+.ops {
+    color: #f3f3f3;
+    padding: 7px;
+}
+
+.panel-img {
+    height: 40px;
+    width: 400px;
+}
+
+.img {
+    background-image: url(summersale.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+}
+
+.cover {
+    background-image: url(amazoncover.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.message {
+    background-color: white;
+    color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.shop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #94f2f0;
+}
+    
+.box {
+        height: 350px;
+        width: 23%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 5px;
+}
+    
+.box-img {
+        height: 280px;
+        background-size: cover;
+}
+    
+.cont {
+        margin-left: 10px;
+        margin-right: 10px;
+}
+    
+.gap {
+    background-color: #94f2f0 ;
+    height: 20px;
+}
+
+.pers {
+        text-align: center;
+}
+
+.fp1  {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fp2 {
+    height: 300px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+ul p {
+    margin-top: 30px; 
+    font-weight: bold  
+}
+
+.fp2 a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.fp3 {
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fopt {
+    background-color: #222f3d;
+    color: white;
+    border: none;
+}
+
+.fp4 {
+    background-color: #0F1111;
+    color: white;
+    font-size: 0.90rem;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
+
+
